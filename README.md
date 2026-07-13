@@ -2,11 +2,11 @@
 掘金新闻实验项目
 
 整体目录结构：
-AI_project/ \n
-├─ toutiao_project/    # Python FastAPI 后端项目（核心待分析文件夹）\n
-├─ xwzx-news/          # Vue 前端项目\n
-├─ README.md           # 项目部署说明文档\n
-└─ database.sql        # MySQL数据库初始化脚本\n
+AI_project/ 
+├─ toutiao_project/    # Python FastAPI 后端项目（核心待分析文件夹）
+├─ xwzx-news/          # Vue 前端项目
+├─ README.md           # 项目部署说明文档
+└─ database.sql        # MySQL数据库初始化脚本
 
 
 
