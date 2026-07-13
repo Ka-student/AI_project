@@ -1,2 +1,2 @@
-# AI_project
+# news_project
 掘金新闻
