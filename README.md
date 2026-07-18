@@ -12,6 +12,6 @@ AI_project/
 
 
 
-**运行方法**：  
+##**运行方法**：  
 将toutiao_project项目导入pycharm中，打开pycharm右侧的database，右击MySQL数据库，选择sql脚本 -> 运行脚本 -> databa.sql文件，在终端输入uvicorn mian:app --reload命令，运行后端。  
 运行cmd，cd到xwzx-news，执行npm run dev，运行前端，复制显示的网页，即可实现本地新闻项目。  
