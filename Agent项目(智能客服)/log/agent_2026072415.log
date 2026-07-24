@@ -1,0 +1,34 @@
+2026-07-24 15:05:22,504 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有1条信息
+2026-07-24 15:05:22,504 - agent - DEBUG - middleware.py:44 - [log_before_model]HumanMessage | 你好
+2026-07-24 15:06:00,127 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有1条信息
+2026-07-24 15:06:00,127 - agent - DEBUG - middleware.py:44 - [log_before_model]HumanMessage | 我需要生成一份扫地机器人的报告
+2026-07-24 15:06:03,845 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：get_user_id
+2026-07-24 15:06:03,846 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{}
+2026-07-24 15:06:03,846 - agent - INFO - middleware.py:26 - [tool monitor]工具get_user_id调用成功
+2026-07-24 15:06:03,901 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有3条信息
+2026-07-24 15:06:03,901 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 1007
+2026-07-24 15:06:06,394 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：get_current_month
+2026-07-24 15:06:06,394 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{}
+2026-07-24 15:06:06,395 - agent - INFO - middleware.py:26 - [tool monitor]工具get_current_month调用成功
+2026-07-24 15:06:06,480 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有5条信息
+2026-07-24 15:06:06,481 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 2025-06
+2026-07-24 15:06:09,437 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：fill_context_for_report
+2026-07-24 15:06:09,437 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{}
+2026-07-24 15:06:09,438 - agent - INFO - middleware.py:26 - [tool monitor]工具fill_context_for_report调用成功
+2026-07-24 15:06:09,729 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有7条信息
+2026-07-24 15:06:09,729 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-07-24 15:06:13,205 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：fetch_external_data
+2026-07-24 15:06:13,205 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{'user_id': '1007', 'month': '2025-06'}
+2026-07-24 15:06:13,207 - agent - INFO - middleware.py:26 - [tool monitor]工具fetch_external_data调用成功
+2026-07-24 15:06:14,480 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有9条信息
+2026-07-24 15:06:14,480 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | {"特征": "55㎡一居 | 独居 | 复合地板", "效率": "覆盖率:90%\\n日均清扫:35㎡\\n沿边清扫无死角", "耗材": "滤网寿命:剩余80天\\n尘盒清理:每5天", "对比": "清洁效率优于70%小户型用户"}
+2026-07-24 15:06:17,512 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：rag_summarize
+2026-07-24 15:06:17,512 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{'query': '复合地板扫地机器人保养建议'}
+2026-07-24 15:06:22,403 - agent - INFO - middleware.py:26 - [tool monitor]工具rag_summarize调用成功
+2026-07-24 15:06:23,876 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有11条信息
+2026-07-24 15:06:23,876 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 在复合地板上使用扫地机器人时，建议每日使用后用干软布擦拭机身外壳，及时清理防撞条缝隙中的毛发和线头；每次清扫后清理主刷、尘盒及拖布（尤其宠物家庭需全面清理并缩短耗材更换周期）；每周检查边刷旋转是否卡顿、充电座电源适配器是否发热或异响；若机器人沾到污物应立即清洁，避免细菌滋生。
+2026-07-24 15:06:25,759 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：rag_summarize
+2026-07-24 15:06:25,760 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{'query': '扫地机器人滤网和尘盒维护周期'}
+2026-07-24 15:06:28,855 - agent - INFO - middleware.py:26 - [tool monitor]工具rag_summarize调用成功
+2026-07-24 15:06:29,757 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有13条信息
+2026-07-24 15:06:29,757 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 滤网建议每月用清水冲洗并阴凉晾干，不可暴晒，使用3-6个月后更换；尘盒在普通家庭每2-3天清理一次，宠物家庭或大户型建议每天清理，清理后用干布擦拭内部，避免灰尘结块。

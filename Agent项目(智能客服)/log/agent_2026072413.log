@@ -1,0 +1,9 @@
+2026-07-24 13:05:51,310 - agent - INFO - middleware.py:42 - [log_before_model]即将调用模型，带有1条信息
+2026-07-24 13:05:51,310 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 你好
+2026-07-24 13:06:18,588 - agent - INFO - middleware.py:42 - [log_before_model]即将调用模型，带有1条信息
+2026-07-24 13:06:18,588 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 介绍扫地机器人
+2026-07-24 13:06:20,530 - agent - INFO - middleware.py:22 - [tool monitor]执行工具：rag_summarize
+2026-07-24 13:06:20,530 - agent - INFO - middleware.py:23 - [tool monitor]传入参数：{'query': '扫地机器人介绍'}
+2026-07-24 13:06:24,622 - agent - INFO - middleware.py:26 - [tool monitor]工具rag_summarize调用成功
+2026-07-24 13:06:26,701 - agent - INFO - middleware.py:42 - [log_before_model]即将调用模型，带有3条信息
+2026-07-24 13:06:26,701 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 扫地机器人可根据使用场景选择，如独居小户型注重轻便灵活，多口之家或有宠物需强吸力和防缠绕功能；建议家用吸力≥3000Pa，地毯环境需≥4000Pa，并支持吸力调节；导航方面，激光导航定位精准、抗干扰强，适合复杂户型，视觉导航性价比高但应避免强光环境。日常维护包括每次使用后清理防撞条缝隙的毛发线头，以及用干软布擦拭机身外壳。对于床底、沙发底等区域，可在APP中设置“深度拖扫”以增强清洁效果。
